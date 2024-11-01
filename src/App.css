@@ -1,0 +1,86 @@
+#root {
+  width: 100%;
+  text-align: center;
+
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.updatedbox {
+  background-color: #F3F3E0;
+  width: 100%;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+justify-content: space-evenly;
+}
+
+.card {
+  background-color: #CBDCEB;
+  width: 90%;
+  justify-content: center;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.horizontally {
+  display: flex;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: -150px;
+  margin-bottom: 30px;
+}
+
+.buttons > button {
+  background-color: #133E87;
+  border-radius: 5px;
+  border: none;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  padding: 4px 16px;
+  height: 30px;
+margin-top: 40px;
+}
+
+li > button {
+  background-color: red;
+  border-radius: 5px;
+  margin: 5px;
+  color: antiquewhite;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li {
+  list-style: none;
+}
+
+.buttons > button:hover {
+  background-color: #1565c0;
+}
+
+li > button:hover {
+  background-color: rgb(253, 109, 109);
+}
